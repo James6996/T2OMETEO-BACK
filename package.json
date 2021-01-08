@@ -1,0 +1,28 @@
+{
+  "name": "backt2ometeo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "weather": "node src/scripts/weather.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
